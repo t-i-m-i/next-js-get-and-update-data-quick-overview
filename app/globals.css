@@ -25,3 +25,15 @@ body {
     text-wrap: balance;
   }
 }
+
+@layer components {
+  .container {
+    max-width: 1520px;
+    padding: 0 8px;
+    margin: 0 auto;
+  }
+}
+
+.tomato {
+  border: 1px solid tomato;
+}
